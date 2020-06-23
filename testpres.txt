@@ -1,0 +1,31 @@
+Title: Ruby > You
+Title: Ruby Makes Programming Fun
+Text: The Ruby language was designed to streamline programming, making it simple, fun, and relatively error-free. It offers power, but also ease-of-use.
+Title: Ruby's Good Points
+B0:Believe it or not, Ruby has good points
+B1: Powerful
+B1: Implementations exist for multiple platforms
+B2: Windows
+B2: Mac
+B2: *NIX
+B1: Managed memory
+B1: Dynamic typing
+Title: Ruby's Weaknesses
+B: Slower than compiled languages
+B: Funky syntax
+B: Dynamic typing can make things dodgy sometimes
+Title: Future of Ruby
+Text: Ruby will eventually be compiled into bytecode and executed by a virtual machine. This is primarily to increase speed. This will also allow Ruby to become much more platform-independent. 
+Title: Some Sample Code
+:result = 0
+:6.times {|x| result+=x}
+:result
+Title: Some Sample Code
+:result = ""
+:"ruby is better".each(" ") {
+:	|x|
+:	result="#{x} #{result}"}
+:result
+Title: Some Sample Code With Discussion
+Text: Although Ruby evangelists constantly tout the language as following the Principle of Least Surprise (POLS), its opponents have a laundry list of features that, to the reasonable programmer, are in fact quite surprising. One of the most prominent of the surprising "features" is the lack of a true character data type. For an example of this, consider the following code:
+:"ruby"[2]
